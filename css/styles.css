@@ -1,0 +1,222 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster|Raleway';
+/*---------------*/
+/***** Layla *****/
+/*---------------*/
+
+figure.effect-layla {
+	background: #fff;
+}
+
+figure.effect-layla img {
+	height: 390px;
+}
+
+figure.effect-layla figcaption {
+	padding: 3em;
+}
+
+figure.effect-layla figcaption::before,
+figure.effect-layla figcaption::after {
+	position: absolute;
+	content: '';
+	opacity: 0;
+}
+
+figure.effect-layla figcaption::before {
+	top: 50px;
+	right: 30px;
+	bottom: 50px;
+	left: 30px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+figure.effect-layla figcaption::after {
+	top: 30px;
+	right: 50px;
+	bottom: 30px;
+	left: 50px;
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	-webkit-transform: scale(1,0);
+	transform: scale(1,0);
+	-webkit-transform-origin: 100% 0;
+	transform-origin: 100% 0;
+}
+
+figure.effect-layla h2 {
+	padding-top: 26%;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+figure.effect-layla p {
+	padding: 0.5em 2em;
+	text-transform: none;
+	opacity: 0;
+	-webkit-transform: translate3d(0,-10px,0);
+	transform: translate3d(0,-10px,0);
+}
+
+figure.effect-layla img,
+figure.effect-layla h2 {
+	-webkit-transform: translate3d(0,-30px,0);
+	transform: translate3d(0,-30px,0);
+}
+
+figure.effect-layla img,
+figure.effect-layla figcaption::before,
+figure.effect-layla figcaption::after,
+figure.effect-layla p {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-layla:hover img {
+	opacity: 0.7;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-layla:hover figcaption::before,
+figure.effect-layla:hover figcaption::after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.effect-layla:hover h2,
+figure.effect-layla:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-layla:hover figcaption::after,
+figure.effect-layla:hover h2,
+figure.effect-layla:hover p,
+figure.effect-layla:hover img {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+/*Navbar Section*/
+.navbar-default{
+background-color: transparent;
+border:none;
+}
+.navbar-brand{
+  background-color: url('../img/name-01.png');
+  background-position: center;
+  background-size: cover;
+  display:inline-block;
+  min-height: 10px;
+  width: auto;
+}
+#basic-logo{
+  width: 300px;
+  margin-bottom: 20px;
+}
+/*Carousel Section*/
+.item{
+  height: 600px;
+}
+.carousel-caption{
+  margin-bottom: 100px;
+}
+.wildlife {
+  height: 200px;
+  width: 50%;
+}
+.landscape{
+  width:100%;
+  height:250px;
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
+}
+.wildlife:hover{
+  flex: 1;
+  height:600px;
+}
+.Cheetah-img{
+  background-image: url('../img/2CheetahsOnBlack.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.Yosemite-img{
+  background-image: url('../img/TunnelViewWinter.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.MilkyWay-img{
+  background-image: url('../img/HearstPierLandscape.jpg');
+  background-position: center;
+  background-size: cover;
+}
+/*our story begins*/
+#a_story_wrapper{
+  min-height: 80vh;
+  padding-top: 40px;
+
+}
+#a_story{
+  font-family: 'Lobster',cursive;
+  color:#f8512f;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 55px;
+}
+#a_story_subtext{
+  font-family: "Raleway",sans-serif;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 18px;
+}
+#year_text{
+  position:absolute;
+  z-index: -2;
+  font-family: "Playfair Display",serif;
+  color:rgba(149, 147, 147, 0.2);
+  font-size:225px;
+}
+/*Fresno Bee*/
+
+/*Menu Secion Begins*/
+  #menu_background{
+    background-image: url('../img/black_linen.png');
+    background-size: cover;
+    min-height: 80vh;
+  }
+  #menu_heading{
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 5em;
+  }
+  .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs>li>a{
+    color: #f8512f;
+  }
+  .thumbnail>.caption>p {
+    text-justify: center;
+  }
+
+  /*Menu Section Ends*/
+
+  /*Croc Page*/
+.croc-img{
+  background-image:url('../img/Croc.jpg');
+  height:800px;
+  width: 1200px;
+  background-size: cover;
+  background-position: center;
+
+}
+.imagebackground{
+  background: #000;
+}
