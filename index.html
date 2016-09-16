@@ -11,7 +11,7 @@
 </head>
 <body>
 <!-- Nav starts here -->
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar  navbar-fixed-top navbar-inverse">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -27,10 +27,22 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	    <ul class="nav navbar-nav navbar-right">
-	      <li><a href="#">Home</a></li>
-	      <li><a href="#">Our Story</a></li>
-	      <li><a href="#">Review</a></li>
-	      <li><a href="#">Menu</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Wildlife <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+
+	      <li><a href="#">Stars</a></li>
+	      <li><a href="#">Yosemite</a></li>
+	      <li><a href="#">Europe</a></li>
 	      <li><a href="#">Contact Us</a></li>
 	    </ul>
 	  </div>
@@ -113,9 +125,9 @@
 			<h1 class="text-center" id="menu_heading">menu</h1>
 			<ul class="nav nav-tabs">
 				<li role="presentation" class="active"><a href="Wildlife.html">Wildlife</a></li>
-				<li role="presentation"><a href="#">Stars</a></li>
-				<li role="presentation"><a href="#">Yosemite</a></li>
-				<li role="presentation"><a href="#">Europe</a></li>
+				<li role="presentation"><a href="Stars.html">Stars</a></li>
+				<li role="presentation"><a href="Yosemite.html">Yosemite</a></li>
+				<li role="presentation"><a href="Europe.html">Europe</a></li>
 			</ul><div class="row">
 			  <div class="col-sm-6 col-md-3">
 			    <div class="thumbnail">
@@ -208,6 +220,6 @@
 <!-- javascript	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<!-- <script src="js/bootstrap.min.js"></script> -->
 </body>
 </html>

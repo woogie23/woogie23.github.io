@@ -103,7 +103,9 @@ figure.effect-layla:hover img {
 	-webkit-transition-delay: 0.15s;
 	transition-delay: 0.15s;
 }
-
+.carousel{
+	width: 100%;
+}
 /*Navbar Section*/
 .navbar-default{
 background-color: transparent;
@@ -116,6 +118,9 @@ border:none;
   display:inline-block;
   min-height: 10px;
   width: auto;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color:#ff0000;
 }
 #basic-logo{
   width: 300px;
@@ -215,7 +220,27 @@ border:none;
   width: 1200px;
   background-size: cover;
   background-position: center;
-
+}
+.GoldenHourKudu-img{
+  background-image:url('../img/GoldenHourKudu.jpg');
+  height:800px;
+  width: 1200px;
+  background-size: cover;
+  background-position: center;
+}
+.ElephantCloseup-img{
+  background-image:url('../img/ElephantCloseup.jpg');
+  height:800px;
+  width: 1200px;
+  background-size: cover;
+  background-position: center;
+}
+.ElephantCloseup-img{
+  background-image:url('../img/ElephantCloseup.jpg');
+  height:800px;
+  width: 1200px;
+  background-size: cover;
+  background-position: center;
 }
 .imagebackground{
   background: #000;
