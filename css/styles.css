@@ -215,7 +215,7 @@ border:none;
 
   /*Croc Page*/
 .croc-img{
-  background-image:url('../img/Croc.jpg');
+  background-image:url('../img/croc.jpg');
   height:800px;
   width: 1200px;
   background-size: cover;
@@ -235,8 +235,36 @@ border:none;
   background-size: cover;
   background-position: center;
 }
-.ElephantCloseup-img{
-  background-image:url('../img/ElephantCloseup.jpg');
+.Hippos-img{
+  background-image:url('../img/Hippos.jpg');
+  height:800px;
+  width: 1200px;
+  background-size: cover;
+  background-position: center;
+}
+.Wildebeest-img{
+  background-image:url('../img/Wildebeest.jpg');
+  height:800px;
+  width: 1200px;
+  background-size: cover;
+  background-position: center;
+}
+.WildDogPup-img{
+  background-image:url('../img/WildDogPup.jpg');
+  height:800px;
+  width: 1200px;
+  background-size: cover;
+  background-position: center;
+}
+.EgretswithStork-img{
+  background-image:url('../img/EgretswithStork.jpg');
+  height:800px;
+  width: 1200px;
+  background-size: cover;
+  background-position: center;
+}
+.LilacBreastedRoller-img{
+  background-image:url('../img/LilacBreastedRoller.jpg');
   height:800px;
   width: 1200px;
   background-size: cover;
