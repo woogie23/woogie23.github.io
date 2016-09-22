@@ -1,9 +1,9 @@
-@import 'https://fonts.googleapis.com/css?family=Lobster|Raleway';
+.@import 'https://fonts.googleapis.com/css?family=Lobster|Raleway';
 /*---------------*/
 /***** Layla *****/
 /*---------------*/
 
-figure.effect-layla {
+/*figure.effect-layla {
 	background: #fff;
 }
 
@@ -101,7 +101,7 @@ figure.effect-layla:hover h2,
 figure.effect-layla:hover p,
 figure.effect-layla:hover img {
 	-webkit-transition-delay: 0.15s;
-	transition-delay: 0.15s;
+	transition-delay: 0.15s;*/
 }
 .carousel{
 	width: 100%;
@@ -256,7 +256,7 @@ border:none;
   background-size: cover;
   background-position: center;
 }
-.EgretswithStork-img{
+.StorkswithEgret-img{
   background-image:url('../img/EgretswithStork.jpg');
   height:800px;
   width: 1200px;
