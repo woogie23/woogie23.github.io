@@ -216,57 +216,57 @@ border:none;
   /*Croc Page*/
 .Croc-img{
   background-image:url('../img/Croc.jpg');
-  height:800px;
-  width: 1200px;
+  height:600px;
+  width: 900px;
   background-size: cover;
   background-position: center;
 }
 .GoldenHourKudu-img{
   background-image:url('../img/GoldenHourKudu.jpg');
-  height:800px;
-  width: 1200px;
+  height:600px;
+  width: 900px;
   background-size: cover;
   background-position: center;
 }
 .ElephantCloseup-img{
   background-image:url('../img/ElephantCloseup.jpg');
-  height:800px;
-  width: 1200px;
+  height:900px;
+  width: 600px;
   background-size: cover;
   background-position: center;
 }
 .Hippos-img{
   background-image:url('../img/Hippos.jpg');
-  height:800px;
-  width: 1200px;
+  height:600px;
+  width: 900px;
   background-size: cover;
   background-position: center;
 }
 .Wildebeest-img{
   background-image:url('../img/Wildebeest.jpg');
-  height:800px;
-  width: 1200px;
+  height:400px;
+  width: 600px;
   background-size: cover;
   background-position: center;
 }
 .WildDogPup-img{
   background-image:url('../img/WildDogPup.jpg');
-  height:800px;
-  width: 1200px;
+  height:900px;
+  width: 600px;
   background-size: cover;
   background-position: center;
 }
 .StorkswithEgret-img{
-  background-image:url('../img/EgretswithStork.jpg');
-  height:800px;
-  width: 1200px;
+  background-image:url('../img/StorkswithEgret.jpg');
+  height:600px;
+  width: 900px;
   background-size: cover;
   background-position: center;
 }
 .LilacBreastedRoller-img{
   background-image:url('../img/LilacBreastedRoller.jpg');
-  height:800px;
-  width: 1200px;
+  height:400px;
+  width: 600px;
   background-size: cover;
   background-position: center;
 }
