@@ -244,8 +244,8 @@ border:none;
 }
 .Wildebeest-img{
   background-image:url('../img/Wildebeest.jpg');
-  height:400px;
-  width: 600px;
+  height:600px;
+  width: 900px;
   background-size: cover;
   background-position: center;
 }
@@ -258,14 +258,35 @@ border:none;
 }
 .StorkswithEgret-img{
   background-image:url('../img/StorkswithEgret.jpg');
-  height:600px;
-  width: 900px;
+  height:800px;
+  width: 1200px;
   background-size: cover;
   background-position: center;
 }
 .LilacBreastedRoller-img{
   background-image:url('../img/LilacBreastedRoller.jpg');
   height:400px;
+  width: 600px;
+  background-size: cover;
+  background-position: center;
+}
+.Shaver-img{
+  background-image:url('../img/ShaverMilkyWay.jpg');
+  height:600px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.dennisStars-img{
+  background-image:url('../img/dennisStars.jpg');
+  height:600px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.HearstPierFog-img{
+  background-image:url('../img/HearstPierFog.jpg');
+  height:900px;
   width: 600px;
   background-size: cover;
   background-position: center;
