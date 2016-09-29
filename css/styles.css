@@ -291,6 +291,20 @@ border:none;
   background-size: cover;
   background-position: center;
 }
+.HorsetailFalls-img{
+  background-image:url('../img/HorsetailFalls.jpg');
+  height:600px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.TunnelViewWinter-img{
+  background-image:url('../img/TunnelViewWinter.jpg');
+  height:800px;
+  width: 1200px;
+  background-size: cover;
+  background-position: center;
+}
 .imagebackground{
   background: #000;
 }
