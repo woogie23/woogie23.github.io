@@ -272,15 +272,15 @@ border:none;
 }
 .Shaver-img{
   background-image:url('../img/ShaverMilkyWay.jpg');
-  height:600px;
-  width: 400px;
+  height:900px;
+  width: 600px;
   background-size: cover;
   background-position: center;
 }
 .dennisStars-img{
   background-image:url('../img/dennisStars.jpg');
-  height:900px;
-  width: 600px;
+  height:600px;
+  width: 400px;
   background-size: cover;
   background-position: center;
 }
